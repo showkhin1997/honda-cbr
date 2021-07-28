@@ -12,3 +12,6 @@ body{
     -webkit-filter: grayscale(100%);
      filter: grayscale(100%);
 }
+.fa-star{
+    color: #E77C40;
+}
