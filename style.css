@@ -7,9 +7,6 @@ body{
 .header-bg-color{
     background-color: #264653;
 }
-.header-container{
-    width: 0 auto;
-}
 .text-color-peragrph{
     color: #E0E0E0;
     font-size: 16px;
@@ -27,6 +24,10 @@ body{
     padding: 10px;
     border: none;
 }
+.honda-login-button{
+    width: 91px;
+    height: 44px;
+}
 /* Feture Bikes */
 .image-grayscale{
     -webkit-filter: grayscale(100%);
@@ -43,9 +44,15 @@ body{
 .carousel-bg-color{
     background-color: gainsboro;
 }
+/* Choose Bikes By Brands */
 .link-tex-decoration a{
     text-decoration: none;
     color: black;
     font-weight: 800;
     font-style: italic;
+}
+/* LET'S STAY IN TOUCH section */
+.stay-submit-bg-info{
+    background-color: #9ff5c6d0;
+    border-radius: 10px;
 }

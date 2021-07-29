@@ -20,6 +20,33 @@
 <body>
     <!-- Header Start -->
     <header>
+        <nav class="navbar navbar-expand-lg navbar-dark header-bg-color fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feturebikes">Shop</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                    <button class="honda-btn-color ms-5 honda-login-button" type="submit">Login</button>
+                </div>
+            </div>
+        </nav>
+        <!-- Top Banner -->
         <section class="header-bg-color">
             <div class="container py-5 mb-5">
                 <div class="row">
@@ -60,7 +87,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-6">
-                        <img class="img-fluid" src="images/header-bike.png" alt="" width="320px">
+                        <img class="img-fluid" src="images/header-bike.png" alt="">
                     </div>
                 </div>
         </section>
@@ -68,7 +95,7 @@
     <!-- header end -->
     <main>
         <!-- Fetured Bikes -->
-        <section class="container my-5">
+        <section class="container my-5" id="feturebikes">
             <h1 class="text-center fw-bolder">Fetured Bikes 2021</h1>
             <h5 class="text-center text-color">Best bike collection</h5>
             <div class="row row-cols-1 row-cols-md-3 gy-5 mt-5">
@@ -95,7 +122,8 @@
             <div class="row row-cols-1 row-cols-md-3 gy-5 my-4">
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/user-1.png" class="card-img-top img-thumbnail border-0 img-fluid" alt="...">
+                        <img src="images/user-1.png" class="card-img-top img-thumbnail border-0 w-50 mx-auto my-3"
+                            alt="...">
                         <div class="card-body">
                             <p class="card-text text-center">Slate helps you see how
                                 many more days you need
@@ -119,7 +147,8 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/user-2.png" class="card-img-top img-thumbnail border-0 img-fluid" alt="...">
+                        <img src="images/user-2.png" class="card-img-top img-thumbnail border-0 w-50 mx-auto my-3"
+                            alt="...">
                         <div class="card-body">
                             <p class="card-text text-center">Slate helps you see how
                                 many more days you need
@@ -143,7 +172,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src="images/user-3.jpg" class="card-img-top rounded-circle  img-fluid" alt="...">
+                        <img src="images/user-3.jpg" class="card-img-top rounded-circle  w-50 mx-auto my-3" alt="...">
                         <div class="card-body">
                             <p class="card-text text-center">Slate helps you see how
                                 many more days you need
@@ -168,7 +197,7 @@
             </div>
         </section>
         <!-- Frequently Asked Questions -->
-        <section class="container my-5">
+        <section class="container my-5" id="faq">
             <h1 class="text-center">Frequently Asked <span class="text-color">Questions</span></h1>
             <div class="container my-5">
                 <div class="row">
@@ -387,6 +416,18 @@
                         </a>
                     </div>
                 </div>
+            </div>
+        </section>
+        <!-- LET'S STAY IN TOUCH -->
+        <section style="height: 300px;"
+            class="container d-flex justify-content-center stay-submit-bg-info align-items-center rounded-3 my-5"
+            id="submit">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>Get updates on sales, specials and more</p>
+                <input type="text" class="form-control" placeholder="Your Email">
+                <br>
+                <button type="button" class="honda-btn-color honda-login-button">Submit</button>
             </div>
         </section>
     </main>
