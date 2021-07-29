@@ -38,6 +38,10 @@ body{
 /* Bike Carousel */
 .carousel-bg-color{
     background-color: gainsboro;
-    border-radius: 10px;
-
+}
+.link-tex-decoration a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-style: italic;
 }
