@@ -7,10 +7,14 @@ body{
 .header-bg-color{
     background-color: #264653;
 }
+.header-container{
+    width: 0 auto;
+}
 .text-color-peragrph{
     color: #E0E0E0;
     font-size: 16px;
     line-height: 24px;
+    word-wrap:break-word;
 }
 .honda-btn-color{
     background-color: #E76F51;
