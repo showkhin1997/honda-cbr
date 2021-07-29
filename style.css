@@ -7,12 +7,37 @@ body{
 .header-bg-color{
     background-color: #264653;
 }
+.text-color-peragrph{
+    color: #E0E0E0;
+    font-size: 16px;
+    line-height: 24px;
+}
+.honda-btn-color{
+    background-color: #E76F51;
+    border-radius: 5px;
+    width: 168px;
+    height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+}
 /* Feture Bikes */
 .image-grayscale{
     -webkit-filter: grayscale(100%);
      filter: grayscale(100%);
 }
+.text-color{
+    color: #E76F51;
+}
 /* Happy Clinets */
 .fa-star{
     color: #E77C40;
+}
+/* Bike Carousel */
+.carousel-bg-color{
+    background-color: gainsboro;
+    border-radius: 10px;
+
 }
